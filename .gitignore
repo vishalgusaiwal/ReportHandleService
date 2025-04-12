@@ -1,0 +1,89 @@
+# Java build and dependency folders
+target/
+build/
+out/
+bin/
+*.class
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+# IntelliJ specific cache/system folders
+.idea_modules/
+*.log
+.idea/assetWizardSettings.xml
+.idea/dataSources/
+.idea/httpRequests/
+.idea/dictionaries/
+.idea/libraries/
+.idea/sonarlint/
+.idea/usage.statistics.xml
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+logs/
+
+# Environment or IDE-specific files
+*.env
+*.swp
+*.swo
+
+# Others
+*.bak
+*.tmp
+
+# Exclude personal config and secrets
+*.key
+*.pem
+*.crt
+*.jks
+*.pfx
+.env.local
+
+
